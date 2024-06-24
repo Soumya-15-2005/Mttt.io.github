@@ -43,6 +43,7 @@ Array.from(buttons).forEach((element) => {
         if(element.innerText===''){
             element.innerText = turn;
                audioTurn.play();
+            song.play();
              }
              checkwin();
              turn=  changeturn();
